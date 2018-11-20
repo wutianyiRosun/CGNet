@@ -12,7 +12,7 @@ We use the training set and validation set to train our model. Here, we use 480Ã
 
 ![image](img/results_on_camvid.png)
 
-## Usage
+## Installation
 1. Install PyTorch
   - The code is developed on python3.6.5 on Ubuntu 16.04. (GPU: Tesla K80; PyTorch: 0.5.0a0+9b0cece; Cuda: 8.0)
 2. Clone the repository
@@ -24,8 +24,10 @@ We use the training set and validation set to train our model. Here, we use 480Ã
 
   - Download the [Cityscapes](https://www.cityscapes-dataset.com/) dataset and convert the dataset to [19 categories](https://github.com/mcordts/cityscapesScripts/blob/master/cityscapesscripts/helpers/labels.py). 
   - Download the [Camvid](https://github.com/alexgkendall/SegNet-Tutorial/tree/master/CamVid) dataset.
+
+## Train your own model
   
-4. Training
+###  For Cityscapes
   ```
     python train.py
   ```
