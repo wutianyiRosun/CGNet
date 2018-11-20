@@ -52,7 +52,7 @@ We use the training set and validation set to train our model. Here, we use 480Ã
    ```
     python camvid_train.py
   ```
-  4. Testing (on test set)
+   2. testing (on test set)
   ```
     python camvid_test.py
   ```
