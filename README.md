@@ -37,14 +37,22 @@ We use the training set and validation set to train our model. Here, we use 480Ã
   ```
   python cityscapes_train.py --dataset cityscapes --train_type ontrainval --train_data_list ./dataset/list/Cityscapes/cityscapes_trainval_list.txt --max_epochs 350
   ```
-5. Evaluation (on validation set)
+  3. Evaluation (on validation set)
  
   ```
-    python eval.py
+    python cityscapes_eval.py
   ```
-6. Testing (on test set)
+  4. Testing (on test set)
   ```
-    python test.py
+    python cityscapes_test.py
   ```
   
 ###  For Camvid
+   1. training on train+val set
+   ```
+    python camvid_train.py
+  ```
+  4. Testing (on test set)
+  ```
+    python camvid_test.py
+  ```
