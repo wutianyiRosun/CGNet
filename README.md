@@ -8,6 +8,7 @@ We train the proposed CGNet with only fine annotated data and submit our test re
 ![image](img/results_on_cityscapes.png)
 
 ## Results on Camvid test set
+We use the training set and validation set to train our model. Here, we use 480×360 resolution for training and evaluation. The number of parameters of CGNet is close to the current smallest semantic segmentation model [ENet](https://arxiv.org/abs/1606.02147), and the accuracy of our proposed CGNet is 14.3% higher than it.
 ![image](img/results_on_camvid.png)
 
 ## Usage
