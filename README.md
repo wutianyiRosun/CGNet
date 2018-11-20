@@ -40,19 +40,19 @@ We use the training set and validation set to train our model. Here, we use 480Ã
   3. Evaluation (on validation set)
  
   ```
-    python cityscapes_eval.py
+  python cityscapes_eval.py
   ```
   4. Testing (on test set)
   ```
-    python cityscapes_test.py
+  python cityscapes_test.py
   ```
   
 ###  For Camvid
-   1. training on train+val set
+  1. training on train+val set
    ```
-    python camvid_train.py
+  python camvid_train.py
   ```
-   2. testing (on test set)
+  2. testing (on test set)
   ```
-    python camvid_test.py
+  python camvid_test.py
   ```
