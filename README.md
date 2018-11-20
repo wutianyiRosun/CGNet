@@ -6,7 +6,9 @@ The demand of applying semantic segmentation model on mobile devices has been in
 ## [Results on Cityscapes test set](https://www.cityscapes-dataset.com/method-details/?submissionID=2095&back=mysubmissions) 
 We train the proposed CGNet with only fine annotated data and submit our test results to the official evaluation server.
 ![image](img/results_on_cityscapes.png)
-
+##
+Results on Camvid test set
+![image](img/results_on_camvid.png)
 ## Usage
 1. Install PyTorch
   - The code is developed on python3.6.5 on Ubuntu 16.04. (GPU: Tesla K80; PyTorch: 0.5.0a0+9b0cece; Cuda: 8.0)
