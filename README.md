@@ -18,6 +18,7 @@ We train the proposed CGNet with only fine annotated data and submit our test re
 3. Dataset
 
   - Download the [Cityscapes](https://www.cityscapes-dataset.com/) dataset and convert the dataset to [19 categories](https://github.com/mcordts/cityscapesScripts/blob/master/cityscapesscripts/helpers/labels.py). 
+  - Download the [Camvid](https://github.com/alexgkendall/SegNet-Tutorial/tree/master/CamVid) dataset.
   
 4. Training
   ```
