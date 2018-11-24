@@ -43,12 +43,13 @@ We use the training set and validation set to train our model. Here, we use 480Ã
   python cityscapes_eval.py
   ```
   
-  - OneDrive download: [model_cityscapes_train_on_trainset.pth](https://pan.baidu.com/s/1rilPxLqBH57_sLg0Lc1--Q)
+  - model file download: [model_cityscapes_train_on_trainset.pth](https://pan.baidu.com/s/1rilPxLqBH57_sLg0Lc1--Q)
   
   4. Testing (on test set)
   ```
   python cityscapes_test.py
   ```
+  - model file download: [model_cityscapes_train_on_trainvalset.pth](https://pan.baidu.com/s/1x7LEunjweoDvb_-xNQmFAg)
   
 ###  For Camvid
   1. training on train+val set
@@ -59,3 +60,5 @@ We use the training set and validation set to train our model. Here, we use 480Ã
   ```
   python camvid_test.py
   ```
+  
+  - model file download: [model_camvid_train_on_trainvalset](https://pan.baidu.com/s/1gH6pI3jFmtlBgjgLUCjVvA)
