@@ -47,9 +47,7 @@ We use the training set and validation set to train our model. Here, we use 480Ã
   
   4. Testing (on test set)
   ```
-
   python cityscapes_test.py --gpus 0 --test_data_list ./dataset/list/Cityscapes/cityscapes_test_list.txt --resume ./checkpoint/cityscapes/CGNet_M3N21bs16gpu2_ontrainval/model_cityscapes_train_on_trainvalset.pth
-
   ```
   - model file download: [model_cityscapes_train_on_trainvalset.pth](https://pan.baidu.com/s/1x7LEunjweoDvb_-xNQmFAg)
   
@@ -62,5 +60,5 @@ We use the training set and validation set to train our model. Here, we use 480Ã
   ```
   python camvid_test.py
   ```
-  
-  - model file download: [model_camvid_train_on_trainvalset](https://pan.baidu.com/s/1gH6pI3jFmtlBgjgLUCjVvA)
+
+  - model file download: [model_camvid_train_on_trainvalset.pth](https://pan.baidu.com/s/1gH6pI3jFmtlBgjgLUCjVvA)
