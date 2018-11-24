@@ -42,6 +42,7 @@ We use the training set and validation set to train our model. Here, we use 480Ã
   ```
   python cityscapes_eval.py
   ```
+  - OneDrive download: model_cityscapes_train_on_trainset.pth[https://pan.baidu.com/s/1rilPxLqBH57_sLg0Lc1--Q]
   4. Testing (on test set)
   ```
   python cityscapes_test.py
