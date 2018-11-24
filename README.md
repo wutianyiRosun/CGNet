@@ -40,14 +40,16 @@ We use the training set and validation set to train our model. Here, we use 480Ã
   3. Evaluation (on validation set)
  
   ```
-  python cityscapes_eval.py
+  python cityscapes_eval.py --gpus 0 --val_data_list ./dataset/list/Cityscapes/cityscapes_val_list.txt --resume ./checkpoint/cityscapes/CGNet_M3N21bs16gpu2_ontrain/model_cityscapes_train_on_trainset.pth
   ```
   
   - model file download: [model_cityscapes_train_on_trainset.pth](https://pan.baidu.com/s/1rilPxLqBH57_sLg0Lc1--Q)
   
   4. Testing (on test set)
   ```
-  python cityscapes_test.py
+
+  python cityscapes_test.py --gpus 0 --test_data_list ./dataset/list/Cityscapes/cityscapes_test_list.txt --resume ./checkpoint/cityscapes/CGNet_M3N21bs16gpu2_ontrainval/model_cityscapes_train_on_trainvalset.pth
+
   ```
   - model file download: [model_cityscapes_train_on_trainvalset.pth](https://pan.baidu.com/s/1x7LEunjweoDvb_-xNQmFAg)
   
