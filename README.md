@@ -30,12 +30,12 @@ We use the training set and validation set to train our model. Here, we use 480Ã
 ###  For Cityscapes
   1. training on train set
   ```
-  python cityscapes_train.py --dataset cityscapes --train_type ontrain --train_data_list ./dataset/list/Cityscapes/cityscapes_train_list.txt --max_epochs 300
+  python cityscapes_train.py --gpus 0,1 --dataset cityscapes --train_type ontrain --train_data_list ./dataset/list/Cityscapes/cityscapes_train_list.txt --max_epochs 300
   ```
   
   2. training on train+val set
   ```
-  python cityscapes_train.py --dataset cityscapes --train_type ontrainval --train_data_list ./dataset/list/Cityscapes/cityscapes_trainval_list.txt --max_epochs 350
+  python cityscapes_train.py --gpus 0,1 --dataset cityscapes --train_type ontrainval --train_data_list ./dataset/list/Cityscapes/cityscapes_trainval_list.txt --max_epochs 350
   ```
   3. Evaluation (on validation set)
  
