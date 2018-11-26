@@ -62,3 +62,14 @@ We use the training set and validation set to train our model. Here, we use 480Ã
   ```
 
   - model file download: [model_camvid_train_on_trainvalset.pth](https://pan.baidu.com/s/1gH6pI3jFmtlBgjgLUCjVvA)
+  
+  ## Citation
+If CGNet is useful for your research, please consider citing:
+```
+  @article{wu2018cgnet,
+    title={CGNet: A Light-weight Context Guided Network for Semantic Segmentation},
+    author={Wu, Tianyi and Tang, Sheng and Zhang, Rui and Zhang, Yongdong},
+    journal={arXiv preprint arXiv:1811.08201},
+    year={2018}
+  }
+```
