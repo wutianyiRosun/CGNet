@@ -73,3 +73,6 @@ If CGNet is useful for your research, please consider citing:
     year={2018}
   }
 ```
+  ## License
+
+This code is released under the MIT License. See [LICENSE](LICENSE) for additional details.
