@@ -22,9 +22,41 @@ We use the training set and validation set to train our model. Here, we use 480�
    ```
 3. Dataset
 
-  - Download the [Cityscapes](https://www.cityscapes-dataset.com/) dataset and convert the dataset to [19 categories](https://github.com/mcordts/cityscapesScripts/blob/master/cityscapesscripts/helpers/labels.py). 
-  - Download the [Camvid](https://github.com/alexgkendall/SegNet-Tutorial/tree/master/CamVid) dataset.
+  - Download the [Cityscapes](https://www.cityscapes-dataset.com/) dataset and convert the dataset to [19 categories](https://github.com/mcordts/cityscapesScripts/blob/master/cityscapesscripts/helpers/labels.py). It should have this basic structure.
+  ```
+  ├── cityscapes_test_list.txt
+  ├── cityscapes_train_list.txt
+  ├── cityscapes_trainval_list.txt
+  ├── cityscapes_val_list.txt
+  ├── cityscapes_val.txt
+  ├── gtCoarse
+  │   ├── train
+  │   ├── train_extra
+  │   └── val
+  ├── gtFine
+  │   ├── test
+  │   ├── train
+  │   └── val
+  ├── leftImg8bit
+  │   ├── test
+  │   ├── train
+  │   └── val
+  ├── license.txt
+```
+  - Download the [Camvid](https://github.com/alexgkendall/SegNet-Tutorial/tree/master/CamVid) dataset.It should have this basic structure.
+  ```
+  ├── camvid_test_list.txt
+  ├── camvid_train_list.txt
+  ├── camvid_trainval_list.txt
+  ├── camvid_val_list.txt
+  ├── test
+  ├── testannot
+  ├── train
+  ├── trainannot
+  ├── val
+  └── valannot
 
+  ```
 ## Train your own model
   
 ###  For Cityscapes
