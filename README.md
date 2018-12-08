@@ -43,7 +43,7 @@ We use the training set and validation set to train our model. Here, we use 480�
   │   └── val
   ├── license.txt
 ```
-  - Download the [Camvid](https://github.com/alexgkendall/SegNet-Tutorial/tree/master/CamVid) dataset.It should have this basic structure.
+  - Download the [Camvid](https://github.com/alexgkendall/SegNet-Tutorial/tree/master/CamVid) dataset. It should have this basic structure.
   ```
   ├── camvid_test_list.txt
   ├── camvid_train_list.txt
