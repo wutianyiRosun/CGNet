@@ -108,3 +108,6 @@ If CGNet is useful for your research, please consider citing:
   ## License
 
 This code is released under the MIT License. See [LICENSE](LICENSE) for additional details.
+
+## Thanks to the Third Party Libs
+https://github.com/speedinghzl/Pytorch-Deeplab.
