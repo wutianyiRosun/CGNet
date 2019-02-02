@@ -265,7 +265,7 @@ class CityscapesTrainInform:
                 min_val_al = min(min_val, min_val_al)
 
                 if train_flag == True:
-                    hist = np.histogram(label_img, self.classes)
+                    hist = np.histogram(label_img, self.classes, [0, self.classes-1])
                     global_hist += hist[0]
 
                     rgb_img = cv2.imread(img_file)
