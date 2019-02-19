@@ -38,11 +38,8 @@ def test(args, test_loader, model, criterion):
    
     data_list=[]
     for i, (input, label, size, name) in enumerate(test_loader):
-        start_time = time.time()
         input_var = Variable(input, volatile=True).cuda()
         output = model(input_var)
-        time_taken = time.time() - start_time
-        print('[%d/%d]  time: %.2f' % (i, total_batches, time_taken))
         output= output.cpu().data[0].numpy()
         gt = np.asarray(label[0].numpy(), dtype = np.uint8)
         output= output.transpose(1,2,0)
