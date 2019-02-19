@@ -35,11 +35,8 @@ def test(args, test_loader, model):
     model.eval()
     total_batches = len(test_loader) 
     for i, (input, size, name) in enumerate(test_loader):
-        start_time = time.time()
         input_var = Variable(input, volatile=True).cuda()
         output = model(input_var)
-        time_taken = time.time() - start_time
-        print('[%d/%d]  time: %.2f' % (i, total_batches, time_taken))
         # save seg image
         output= output.cpu().data[0].numpy()  # 1xCxHxW ---> CxHxW
         output= output.transpose(1,2,0) # CxHxW --> HxWxC
