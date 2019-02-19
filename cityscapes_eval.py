@@ -37,11 +37,8 @@ def val(args, val_loader, model, criterion):
    
     data_list=[]
     for i, (input, label, size, name) in enumerate(val_loader):
-        start_time = time.time()
         input_var = Variable(input, volatile=True).cuda()
         output = model(input_var)
-        time_taken = time.time() - start_time
-        print('[%d/%d]  time: %.2f' % (i, total_batches, time_taken))
         # save seg image
         output= output.cpu().data[0].numpy()  # 1xCxHxW ---> CxHxW
         gt = np.asarray(label[0].numpy(), dtype = np.uint8)
