@@ -14,7 +14,7 @@ We use the training set and validation set to train our model. Here, we use 480Ã
 
 ## Installation
 1. Install PyTorch
-  - The code is developed on python3.6.5 on Ubuntu 16.04. (GPU: Tesla K80; PyTorch: 0.5.0a0+9b0cece; Cuda: 8.0)
+  - The code is developed on python3.6.5 on Ubuntu 16.04. (GPU: Tesla K80; PyTorch: 0.5.0a0+9b0cece; Cuda: 8.0; Cudnn: 7.5)
 2. Clone the repository
    ```shell
    git clone https://github.com/wutianyiRosun/CGNet.git 
