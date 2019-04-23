@@ -117,10 +117,11 @@ def print_model_param_flops(model=None, input_w=1024, input_h=2048, multiply_add
                 net.register_forward_hook(bn_hook)
             if isinstance(net, torch.nn.ReLU) or isinstance(net, torch.nn.PReLU):
                 net.register_forward_hook(relu_hook)
-            if isinstance(net, torch.nn.MaxPool2d) or isinstance(net, torch.nn.AvgPool2d):
+            if isinstance(net, torch.nn.MaxPool2d) or isinstance(net, torch.nn.AvgPool2d) or isinstance(net, torch.nn.AdaptiveAvgPool2d):
                 net.register_forward_hook(pooling_hook)
             if isinstance(net, torch.nn.Upsample):
                 net.register_forward_hook(upsample_hook)
+      
             return
         for c in childrens:
             foo(c)
